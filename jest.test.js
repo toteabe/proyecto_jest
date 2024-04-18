@@ -12,7 +12,7 @@ it('object assignment', () => {
   data['two'] = 2;
   expect(data).toEqual({one: 1, two: 2});
   expect(data).not.toBe({one: 1, two: 2});
-
+ 
 });
 
 it('adding positive numbers is not zero', () => {
